@@ -92,8 +92,10 @@ public class AuthorDAOImpl implements AuthorDAO {
     }
 
     public Author updateAuthor(Author author) {
+        Author author1;
         Session session;
         try {
+
             session = getCurrentSession();
             session.beginTransaction();
             session.update(author);

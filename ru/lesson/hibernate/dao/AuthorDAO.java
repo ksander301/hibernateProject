@@ -3,7 +3,7 @@ package ru.lesson.hibernate.dao;
 import ru.lesson.hibernate.model.Author;
 
 import java.util.List;
-
+// add any comment
 public interface AuthorDAO {
     Author getAuthorById(Long id);
     void deleteAuthor(Long id);
